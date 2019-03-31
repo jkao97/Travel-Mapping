@@ -1,0 +1,27 @@
+h1 {
+	font-family: Georgia;
+	font-size: 300%;
+}
+
+.topnav{
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a {
+	font-family: Georgia;
+	font-size: 75%;
+	color: white;
+	text-decoration: none;
+	float: right;
+	text-align: right;
+	padding: 1em 2em;
+}
+
+.topnav a:hover {
+	background-color: red;
+}
+
+.topnav a.active{
+	background-color: blue;
+}
